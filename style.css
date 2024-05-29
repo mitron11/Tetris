@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #333;
+}
+
+.tetris-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+canvas {
+    background: #000;
+    border: 2px solid #fff;
+}
+
+.score {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
